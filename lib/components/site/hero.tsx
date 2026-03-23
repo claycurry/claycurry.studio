@@ -28,7 +28,7 @@ function HeroName() {
         className={`text-[28px] leading-[1.05] tracking-[-1.2px] md:text-[36px] md:tracking-[-2.24px] lg:text-[40px] lg:tracking-[-1.5px] block transition-all duration-500 ease-in-out ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate"}`}
         style={{ transitionDelay: `400ms` }}
       >
-        Product Engineer
+        Design Engineer
       </span>
     </h1>
   );

@@ -6,7 +6,7 @@ export const locationData = {
 
 export const profileData = {
   name: "Clay Curry",
-  title: "Product Engineer",
+  title: "Design Engineer",
   avatar: "/clay_profile_cropped.png",
   email: "me@claycurry.studio",
   location: locationData.label,
