@@ -30,7 +30,7 @@ export default function XBookmarksPage() {
           <div>
             <h3 className="text-sm font-semibold text-foreground mb-1">Team</h3>
             <p className="text-sm text-muted-foreground">
-              Clay Curry, Product Engineer
+              Clay Curry, Design Engineer
             </p>
           </div>
           <div>
