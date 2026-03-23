@@ -596,7 +596,7 @@ apps/www/lib/server/
     feedback-service.ts
     views-service.ts
     x-auth-service.ts
-    y-bookmarks-service.ts
+    x-bookmarks-service.ts
 ```
 
 ## Concrete First Sprint

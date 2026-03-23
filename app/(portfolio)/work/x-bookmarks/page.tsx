@@ -1,5 +1,4 @@
 import { ExternalLink } from "lucide-react";
-import { BookmarksGallery } from "@/lib/components/site/bookmarks-gallery";
 
 export default function XBookmarksPage() {
   return (
@@ -7,7 +6,7 @@ export default function XBookmarksPage() {
       {/* Header */}
       <div className="flex flex-col items-center text-center gap-3 mb-[calc(3/8*100vh)] md:mb-32">
         <h1 className="font-sans font-bold tracking-tight text-3xl md:text-5xl">
-          Y Bookmarks - Bookmark Archive
+          X Bookmarks - Navigation
         </h1>
         <p className="text-accent text-sm md:text-base">
           Personal Project — January 2026
@@ -22,8 +21,10 @@ export default function XBookmarksPage() {
               My Role
             </h3>
             <p className="text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">UI Lead</span> —
-              Interaction Design, Visual Design, User Flows, Rapid Prototyping
+              <span className="font-medium text-foreground">
+                Design Engineer
+              </span>{" "}
+              — Interaction Design, Visual Design, User Flows, Rapid Prototyping
             </p>
           </div>
           <div>
@@ -50,7 +51,7 @@ export default function XBookmarksPage() {
               href="https://x-bookmarks.claycurry.com/"
               target="_blank"
               rel="noopener noreferrer"
-              data-click-id="work:y-bookmarks-demo"
+              data-click-id="work:x-bookmarks-demo"
               className="inline-flex items-center gap-1.5 text-sm text-accent hover:text-accent/80 transition-colors"
             >
               x-bookmarks.claycurry.com <ExternalLink className="size-3.5" />
@@ -62,28 +63,28 @@ export default function XBookmarksPage() {
             </h3>
             <div className="space-y-3 text-sm text-foreground">
               <p>
-                If you’ve used Bookmark Folders for a while, you will notice the
-                pains of its age. As collections grow, rediscovering content
-                requires active keyword recall or scrolling through hundreds of
-                unused bookmarks. One contributor to this accumulation is that
-                removing bookmarks is irreversible, which discourages cleanup
-                and leads to ever-expanding, unengaging content..
+                X bookmarks get harder to navigate as they pile up. Finding
+                something later often means relying on memory or digging through
+                a long, flat list.
               </p>
               <p>
-                Bookmark Archive introduces a reversible stage to bookmark
-                management, allowing users to remove items from their active
-                view without permanently losing them. This reduces friction
-                around cleanup, encourages pruning low-value bookmarks, and
-                keeps primary collections focused on relevant, high-signal
-                content.
+                This project explores better ways to browse, filter, and manage
+                saved posts so large bookmark collections stay useful.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Gallery */}
-      <BookmarksGallery />
+      <section className="rounded-xl border border-border/60 bg-muted/20 px-5 py-6 md:px-6">
+        <h2 className="text-sm font-semibold text-foreground mb-2">
+          Work in Progress
+        </h2>
+        <p className="text-sm text-muted-foreground">
+          This project page is still in progress. For the latest experience,
+          check out the demo link above.
+        </p>
+      </section>
     </div>
   );
 }

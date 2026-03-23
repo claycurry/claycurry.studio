@@ -23,9 +23,9 @@ export function RecentActivitySection() {
       />
       <div className="mt-5 md:mt-6">
         <ProjectCard
-          href="/work/y-bookmarks"
+          href="/work/x-bookmarks"
           icon={<BookmarkIcon />}
-          title="Y Bookmarks"
+          title="X Bookmarks - Navigation"
           description="clone for X bookmarks, with more navigations tools"
         />
       </div>

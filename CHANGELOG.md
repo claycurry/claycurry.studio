@@ -19,7 +19,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - Owner-validated X bookmarks status endpoint at `/api/x/bookmarks/status`
-- High-level and low-level design docs for the X bookmarks sync architecture under `docs/y-bookmarks/`
+- High-level and low-level design docs for the X bookmarks sync architecture under `docs/x-bookmarks/`
 - Contract and service tests covering bookmark payload validation, owner verification, and stale snapshot fallback
 
 ### Changed

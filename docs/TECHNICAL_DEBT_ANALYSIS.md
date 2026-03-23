@@ -430,7 +430,7 @@ tests/
 │       ├── feedback.test.ts        # Sentiment validation, Resend mock
 │       ├── x-auth.test.ts          # PKCE flow, secret validation
 │       ├── x-callback.test.ts      # Code exchange, owner verification
-│       └── y-bookmarks.test.ts     # Cache freshness, stale fallback
+│       └── x-bookmarks.test.ts     # Cache freshness, stale fallback
 ├── integration/
 │   ├── redis-fallback.test.ts      # Real Redis → kill → verify in-memory fallback
 │   ├── x-oauth-flow.test.ts        # Full auth → callback → token storage
